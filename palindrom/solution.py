@@ -5,7 +5,7 @@ def array_int(n):
 		n = n // 10
 	return arr
 
-def is_int_palindrom(n):
+def palindrom(n):
 	arr = array_int(n)
 	length = len(arr)
 	iter_start =0

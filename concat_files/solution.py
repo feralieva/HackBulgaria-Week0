@@ -11,7 +11,7 @@ def main():
 		content = file1.read()
 		arr += [content]
 	file.write("\n\n".join(arr))
-	print(arr)
+	#print(arr)
 
 if __name__ == '__main__':
 	main()

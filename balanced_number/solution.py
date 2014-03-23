@@ -1,4 +1,9 @@
-from palindrom import array_int
+def array_int(n):
+	arr = []
+	while n!=0:
+		arr = arr + [n%10]
+		n = n // 10
+	return arr
 
 def is_number_balanced(n):
 	arr = array_int(n)
